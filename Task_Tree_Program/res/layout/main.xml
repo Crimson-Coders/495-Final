@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<Button
+		android:text="Call Help"
+		android:layout_width="150px"
+		android:layout_height="75px"
+		android:id="@+id/callHelpButton"
+		android:layout_above="@+id/taskHelpButton"
+		android:layout_alignLeft="@+id/taskHelpButton"
+		android:layout_marginBottom="24dp"></Button>
+	<Button
+		android:text="Task Help"
+		android:layout_width="150px"
+		android:layout_height="75px"
+		android:id="@+id/taskHelpButton"
+		android:layout_alignBaseline="@+id/loginButton"
+		android:layout_alignBottom="@+id/loginButton"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="29dp"></Button>
+	<TextView
+		android:id="@+id/mainTextView"
+		android:text="In Main Activity"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="400px"
+		android:layout_height="400px"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="28dp"></TextView>
+	<Button
+		android:text="Login"
+		android:layout_width="150px"
+		android:layout_height="75px"
+		android:id="@+id/loginButton"
+		android:layout_alignParentBottom="true"
+		android:layout_alignRight="@+id/mainTextView"
+		android:layout_marginBottom="54dp"></Button>
+	<Button
+		android:text="Break"
+		android:layout_width="150px"
+		android:layout_height="75px"
+		android:id="@+id/breakButton"
+		android:layout_alignBaseline="@+id/callHelpButton"
+		android:layout_alignBottom="@+id/callHelpButton"
+		android:layout_alignLeft="@+id/loginButton"></Button>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Start>
+<break>
+	<name>
+		lunch break
+	</name>
+	<duration>
+		30
+	</duration>
+</break>
+
+<break>
+	<name>
+		Long
+	</name>
+	<duration>
+		8
+	</duration>
+</break>
+
+<break>
+	<name>
+		Dinner Break
+	</name>
+	<duration>
+		4
+	</duration>
+</break>
+
+<helpNumber>
+	3218675309
+</helpNumber>
+<task>
+	<name>
+		Get Some Sleep Dr. Gray
+	</name>
+	<description>
+		There is this thing called a bed. It is your friend. 
+	</description>
+	<duration>
+		20
+	</duration>
+</task>
+
+<task>
+	<name>
+		Squatting sasquatches squat by a tree. 
+	</name>
+	<description>
+		There is a tree in the field by a fence. 
+	</description>
+	<duration>
+		20
+	</duration>
+</task>
+
+<task>
+	<name>
+		We like our app. 
+	</name>
+	<description>
+		No matter how primitive it looks. Believe us it wasn't simple. Just look at the website Brittany did. 
+	</description>
+	<duration>
+		20
+	</duration>
+</task>
+</Start>

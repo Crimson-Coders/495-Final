@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<Button
+		android:text="Break One"
+		android:layout_width="200px"
+		android:layout_height="75px"
+		android:id="@+id/breakOne"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="53dp"></Button>
+	<Button
+		android:text="Break Two"
+		android:layout_width="200px"
+		android:layout_height="75px"
+		android:id="@+id/breakTwo"
+		android:layout_below="@+id/breakOne"
+		android:layout_alignLeft="@+id/breakOne"
+		android:layout_marginTop="53dp"></Button>
+	<Button
+		android:text="Break Three"
+		android:layout_width="200px"
+		android:layout_height="75px"
+		android:id="@+id/breakThree"
+		android:layout_below="@+id/breakTwo"
+		android:layout_alignLeft="@+id/breakTwo"
+		android:layout_marginTop="53dp"></Button>
+	<Button
+		android:text="Exit"
+		android:layout_width="200px"
+		android:layout_height="75px"
+		android:id="@+id/exitButton"
+		android:layout_below="@+id/breakThree"
+		android:layout_alignLeft="@+id/breakThree"
+		android:layout_marginTop="53dp"></Button>
+
+
+</RelativeLayout>
